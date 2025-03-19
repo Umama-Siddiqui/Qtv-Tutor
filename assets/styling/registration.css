@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 45% ;
+}
+.text{
+    height: 150px;
+}
+.button{
+    height: 50px;
+    background-color: rgb(144, 153, 15);
+    color: white;
+    font-weight: bold;
+}
+.bar{
+    width: 97%;
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    height: 450px;
+    width: 80%;
+}
+.text{
+    height: 130px;
+}
+.new{
+    height: 50px;
+    background-color: rgb(27, 97, 79);
+    color: white;
+}
+.new1{
+    height: 80px;
+    background-color: rgb(27, 97, 79);
+    border-top: 1px solid white;
+    color: white;
+}
+.banner{
+    height: 230px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

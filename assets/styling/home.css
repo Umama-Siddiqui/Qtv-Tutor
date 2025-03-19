@@ -1,0 +1,922 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* register-section start */
+.register-section {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+
+.image-container {
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    overflow: hidden;
+    background: #caa4a4;
+}
+
+.image-container img {
+    width: 60%;
+    height: 100%;
+    margin-left:500px;
+    
+
+}
+
+.form-overlay {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255); /* Semi-transparent white background */
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.register-form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form1 h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.register-form1 label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.register-form1 input, .register-form select {
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+
+
+button {
+    background-color: #235440;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Courses section */
+.courses-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.course-item {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 380px;
+    margin-top: -75px;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    gap: 50px;
+}
+
+.children {
+    background-color: #17a2b8;
+}
+
+.adults {
+    background-color: #007bff;
+}
+
+.females {
+    background-color: #639216;
+}
+
+.course-item i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* End */
+/*  */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section video {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-section {
+    flex: 2;
+    padding-left: 30px;
+}
+
+.text-section h6 {
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.text-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.know-more {
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.know-more:hover{
+    color: #235440;
+}
+.know-more::after {
+    margin-left: 10px;
+    transition: margin-left 0.3s ease;
+}
+
+.know-more:hover::after {
+    margin-left: 15px;
+}
+
+.line {
+    width: 70%;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 28px;
+}
+.c1{
+    display: flex;
+    margin-left: 620px;
+    margin-bottom: 10px;
+
+   
+}
+
+
+/* Easy Steps Section */
+.easy-steps {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.easy-steps h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #233a2c;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.step {
+    text-align: center;
+    width: 200px;
+}
+.step h3 {
+    font-size: 2.5rem;
+    color: #006341;
+}
+
+.step span {
+    color: #004d25;
+    font-size: 20px;
+}
+
+.step p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+/* Button adjustments */
+.btn4 {
+    display: inline-block;
+    margin-top: 70px; /* Adjust this value for more space */
+    padding: 12px 30px;
+    background-color: #006341;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn4:hover {
+    background-color: #004d25;
+    color: white;
+}
+
+/* Additional Space for Button */
+.easy-steps {
+    padding-bottom: 30px; /* Add extra space at the bottom of the section */
+    overflow-x: hidden;
+}
+
+
+/* Study Options Section */
+.study-options {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eef6f5;
+}
+
+.study-options h3 {
+    font-size: 2rem;
+    color: #233a2c;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cardi {
+    position: relative;
+    background-color: white;
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cardi img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 330px;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent background */
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.card-content h4 {
+    font-size: 1.25rem;
+    margin-top: 200px;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Hover Effect */
+.cardi:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.cardi:hover .card-content {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker black on hover */
+}
+
+/* Arrow Buttons */
+.arrow-buttons {
+    margin-top: 30px; /* Space above buttons */
+}
+
+.arrow-left, .arrow-right {
+    padding: 10px 20px;
+    margin: 0 40%;
+    background-color: #006341;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    background-color: #004d25;
+}
+/*  */
+/*  */
+.container2 {
+    max-width: 1200%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    overflow-x: hidden;
+}
+.card2 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.card2 img {
+    max-width: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.card2 h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+.card2 p {
+    font-size: 14px;
+    color: #666;
+}
+.card2.free-trial {
+    border: 1px solid black;
+}
+/* Add white circular divs in corners */
+.card2.free-trial::before,
+.card2.free-trial::after {
+    content: '';
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.card2.free-trial::before {
+    top: -7px;
+    left: -7px;
+}
+.card2.free-trial::after {
+    top: -7px;
+    right: -7px;
+}
+/* Additional corner circles for bottom-left and bottom-right */
+.card2.free-trial .bottom-left {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -7px;
+    left: -7px;
+}
+.card2.free-trial .bottom-right {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -7px;
+    right: -7px;
+}
+/*  */
+/*  */
+.counter-section {
+    background: url('assets/img/bg2.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  .counter-section h1 {
+      font-weight: bolder;
+      font-size: 40px;
+      margin-top: -10px;
+  }
+  .stats-container {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+  }
+  .stat-box {
+    flex: 1;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .stat-box h1 {
+    font-size: 35px;
+    margin: 0;
+  }
+  .stat-box p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .icon {
+    font-size: 40px;
+  }
+  .counter::after {
+    content: "+";
+    font-size: 35px;
+    margin-left: 5px;
+  }
+/*  */
+/*  */
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-left:50px ;
+}
+.text-sectionl {
+    flex: 2;
+}
+.text-sectionl h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    text-align: left;
+    text-align: center;
+}
+.text-sectionl p {
+    color: #7f8c8d;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+.highlight {
+    color: #3498db;
+    font-weight: bold;
+}
+.image-containerl {
+    flex: 1;
+    margin-left: 50px;
+}
+.image-containerl img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    
+}
+.logo-containerl {
+    margin-top: 30px;
+    text-align: left;
+}
+.logo-containerl img {
+    width: 120px;
+}
+/*  */
+/*  */
+.app-section {
+    color: white;
+  }
+  .header {
+    text-align: center;
+    padding: 10%;
+    font-weight: bold;
+  }
+  .header h1 {
+    margin-bottom: 20px;
+    font-size: 1.9em;
+    font-weight: bold;
+  }
+  .app-section {
+    padding: 50px 0;
+  }
+  .app-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .app-images img {
+    width: 95%;
+    margin-top: -100px;
+  }
+  .app-info {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .app-info h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding:0px 20px;
+
+  }
+  .app-info p {
+    font-size: 1.1em;
+    padding:0px 20px;
+
+  }
+  .download-buttons {
+    margin-top: 20px;
+  }
+  .download-buttons img {
+    width: 150px;
+    margin-right: 10px;
+  }
+  .know-more-btn {
+    background-color: #a3ad13;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  .know-more-btn:hover {
+    background-color: #4b463e;
+  }
+/*  */
+/*  */
+.containerh {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.containerh h6 {
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.containerh h1 {
+    font-size: 44px;
+    color: #252a38;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.containerh .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0; /* Remove the gap between grid items */
+}
+
+.containerh .grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.containerh .grid-item img {
+    width: 100%;
+    height: 300px;
+}
+
+.containerh .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.containerh .grid-item:hover .overlay {
+    opacity: 1;
+}
+
+.containerh .overlay span {
+    color: #ffd700;
+    font-size: 14px;
+}
+/*  */
+/* Blog-section start*/
+.blog-section1 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.blog-section1 h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    color: #333;
+}
+
+.blog-section1 p {
+    color: #555;
+    margin-left: 30%;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    background-color: #fff;
+    border-radius: 10px;
+    width: calc(33% - 20px); /* Three posts in a row with spacing */
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blog-post h3 {
+    padding: 15px;
+    font-size: 22px;
+    margin: 0;
+    color: #333;
+}
+
+.blog-post .date-comments {
+    padding: 0 15px 15px;
+    color: #888;
+    font-size: 14px;
+}
+
+.blog-post .plus-icon {
+    position: absolute;
+    top: 185px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.more-post1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.more-post1 a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.more-post1 a:hover {
+    background-color: #007bff;
+    color: white;
+}
+/* Blog-section End*/
+.carousel{
+    overflow-x: hidden;
+}
+/* Media Queries */
+@media (max-width: 898px) and (min-width:480px) {
+    .register-section {
+        padding: 0px;
+    }
+
+    .form-overlay {
+        padding: 15px;
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    .register-form1 input,
+    .register-form1 select {
+        padding: 8px;
+    }
+    .courses-section {
+        padding: 0px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .course-item {
+        flex: 1 1 45%; /* Two items per row on tablets */
+        margin: 0px 0px; /* Adjust margin for smaller screens */
+
+    }
+    .container {
+        padding: 15px; /* Reduced padding for tablets */
+        flex-direction: column;
+    }
+    .c1 {
+        padding: 15px; /* Adjust padding */
+        margin: 0px;
+    }
+    .study-options {
+        padding: 15px; /* Moderate padding */
+        width: 100%;
+    }
+
+    .study-options h3 {
+        font-size: 22px; /* Slightly smaller font size */
+    }
+
+    .study-options .cards-container {
+        justify-content: space-between; /* Space between items */
+    }
+
+    .study-options .cardi {
+        width: 45%; /* Wider cards */
+    }
+    .counter-section {
+        padding: 15px; /* Moderate padding */
+        margin: 0px;
+    }
+
+    .counter-section p {
+        font-size: 17px; /* Slightly smaller font size */
+    }
+
+    .counter-section h1 {
+        font-size: 26px; /* Slightly smaller font size for heading */
+    }
+
+    .counter-section .stat-box {
+        width: 45%; /* Wider stat boxes */
+        margin: 0 2.5%; /* Space between stat boxes */
+    }
+    .stats-container{
+        margin: 0px;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+        padding: 15px; /* Moderate padding */
+    }
+    .blog-section1 {
+        padding: 15px; /* Moderate padding */
+    }
+
+    .blog-section1 p {
+        font-size: 17px; /* Slightly smaller font size */
+    }
+
+    .blog-section1 h2 {
+        font-size: 26px; /* Slightly smaller font size for heading */
+    }
+
+    .blog-container {
+        justify-content: space-around; /* Space around blog posts */
+    }
+
+    .blog-post {
+        width: 45%; /* Wider blog posts */
+    }
+    
+   
+
+   
+}
+
+@media (max-width: 480px) {
+    .form-overlay {
+        padding: 10px;
+        margin-left: 20%;
+        width: 60%;
+
+    }
+
+    .register-form1 input,
+    .register-form1 select {
+        padding: 6px;
+    }
+    .courses-section {
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .course-item {
+        flex: 1 1 100%; /* One item per row on mobile */
+        margin: 0px 0; /* Adjust margin for mobile */
+    }
+
+    .course-item i {
+        font-size: 1.5em; /* Smaller icon size for mobile */
+    }
+    .container {
+        padding: 10px; /* Further reduced padding for mobile */
+        flex-direction: column;
+
+    }
+    .c1 {
+        padding: 10px; /* Reduced padding */
+        margin: 0px;
+    }
+    .study-options {
+        padding: 10px; /* Reduced padding */
+        width: 100%;
+    }
+
+    .study-options h3 {
+        font-size: 20px; /* Smaller font size */
+    }
+
+    .study-options .cards-container {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center cards */
+    }
+
+    .study-options .cardi {
+        width: 90%; /* Full width for cards */
+    }
+    .counter-section {
+        padding: 10px; /* Reduced padding */
+        margin: 0px;
+    }
+
+    .counter-section p {
+        font-size: 16px; /* Smaller font size */
+    }
+
+    .counter-section h1 {
+        font-size: 24px; /* Smaller font size for heading */
+    }
+
+    .counter-section .stat-box {
+        width: 100%; /* Full width for stat boxes */
+        margin-bottom: 15px; /* Space between stat boxes */
+    }
+    .stats-container{
+        margin: 0px;
+    }
+    .grid {
+        grid-template-columns: 1fr; /* Single column layout */
+        padding: 10px; /* Reduced padding */
+    }
+   
+}
+
+
